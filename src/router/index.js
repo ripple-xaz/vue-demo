@@ -29,10 +29,10 @@ export default  new Router({
     {
       path:'/',
       component:bodyContainer,
-      redirect: '/',
+      redirect: '/details',
       children:[
         {
-          path: '/',
+          path: '/main',
           component: main,
         },
         {
